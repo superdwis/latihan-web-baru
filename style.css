@@ -54,6 +54,11 @@ h2 em { color: var(--moss); font-weight: 500; }
 .facts div { padding-top: 19px; display: flex; flex-direction: column; gap: 9px; }
 .facts span { color: var(--muted); font-size: 9px; letter-spacing: 1px; }
 .facts strong { font-size: 13px; font-weight: 500; }
+.video-section { display: grid; grid-template-columns: .72fr 1.28fr; align-items: center; gap: 8%; padding: 88px 7.2%; background: #f0f1eb; }
+.video-copy h2 { margin: 32px 0 17px; font-family: var(--serif); font-size: 39px; font-weight: 500; line-height: 1.2; }
+.video-copy h2 em { color: var(--moss); }
+.video-copy > p { max-width: 350px; margin: 0; color: #646b62; font-size: 13px; line-height: 1.9; }
+.learning-video { display: block; width: 100%; aspect-ratio: 16 / 9; max-height: 470px; background: #202b31; object-fit: cover; }
 .gallery-section { padding: 82px 0 105px; background: #e8eeeb; }
 .gallery-heading { position: relative; }
 .gallery-heading h2 { margin-top: 33px; }
@@ -112,6 +117,8 @@ h2 em { color: var(--moss); font-weight: 500; }
   .facts div { gap: 7px; }
   .facts span { font-size: 8px; letter-spacing: .5px; }
   .facts strong { font-size: 11px; }
+  .video-section { grid-template-columns: 1fr; gap: 25px; padding: 70px 7%; }
+  .video-copy h2 { font-size: 34px; }
   .gallery-section { padding: 70px 0 72px; }
   .gallery-heading > p { position: static; margin: 16px 0 0; }
   .gallery-grid { width: 100%; margin-top: 32px; padding: 0 7%; grid-template-columns: 1fr 1fr; gap: 9px; }
