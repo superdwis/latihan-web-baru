@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Kelas terbuka untuk belajar keterampilan baru bersama komunitas Ruang Belajar.">
+  <title>Ruang Belajar — Kelas Terbuka untuk Semua</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="wordmark" href="#beranda" aria-label="Ruang Belajar, kembali ke beranda">RUANG<span> BELAJAR</span></a>
+    <nav class="main-nav" aria-label="Navigasi utama">
+      <a href="#cerita">Tentang</a>
+      <a href="#galeri">Program</a>
+      <a href="#lokasi">Temukan kami</a>
+    </nav>
+    <a class="header-link" href="#rencana">Mulai belajar <span aria-hidden="true">↗</span></a>
+  </header>
+
+  <main id="beranda">
+    <section class="hero" aria-labelledby="hero-title">
+      <img class="hero-image" src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=2200&q=88" alt="Pelajar sedang belajar dan membaca di ruang kelas">
+      <div class="hero-shade"></div>
+      <div class="hero-content">
+        <p class="eyebrow">BELAJAR BERSAMA · TUMBUH BERSAMA</p>
+        <h1 id="hero-title">Ruang untuk<br>terus bertumbuh.</h1>
+        <p class="hero-copy">Kelas terbuka, ide baru, dan teman belajar untuk langkahmu berikutnya.</p>
+        <a class="button button-light" href="#galeri">Temukan kelas <span aria-hidden="true">↓</span></a>
+      </div>
+      <p class="image-credit">Belajar dimulai dari rasa ingin tahu <span>·</span> Untuk semua</p>
+      <div class="hero-index" aria-hidden="true"><span>01</span><i></i>04</div>
+    </section>
+
+    <section class="intro section-wrap" id="cerita">
+      <div class="section-label"><span>01</span> TENTANG RUANG BELAJAR</div>
+      <div class="intro-content">
+        <h2>Belajar hari ini.<br><em>Buka kemungkinan esok.</em></h2>
+        <div class="intro-aside">
+          <p>Ruang Belajar adalah komunitas kelas terbuka untuk siapa saja yang ingin berkembang. Belajar hal praktis, bertukar ide, dan bergerak maju dengan ritme yang nyaman.</p>
+          <a class="text-link" href="#galeri">Kenali program kami <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+      <div class="facts" aria-label="Informasi program belajar">
+        <div><span>FORMAT</span><strong>Online & tatap muka</strong></div>
+        <div><span>TINGKAT</span><strong>Pemula hingga lanjut</strong></div>
+        <div><span>BERGABUNG</span><strong>Sepanjang tahun</strong></div>
+      </div>
+    </section>
+
+    <section class="gallery-section" id="galeri">
+      <div class="section-wrap gallery-heading">
+        <div class="section-label"><span>02</span> BELAJAR DENGAN CARA BARU</div>
+        <h2>Pengetahuan yang<br>membuka jalan.</h2>
+        <p>Pilih bidang yang ingin kamu jelajahi berikutnya.</p>
+      </div>
+      <div class="gallery-grid">
+        <button class="gallery-tile tile-large" type="button" data-image="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=1600&q=88" data-caption="Belajar aktif dan berkolaborasi di kelas">
+          <img src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=1200&q=82" alt="Suasana kelas dengan pelajar yang aktif belajar" loading="lazy">
+          <span class="tile-caption">Belajar bersama <span>01 / 03</span></span>
+        </button>
+        <button class="gallery-tile" type="button" data-image="https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=1600&q=88" data-caption="Sudut baca untuk menemukan inspirasi baru">
+          <img src="https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=900&q=82" alt="Rak buku di perpustakaan yang terang" loading="lazy">
+          <span class="tile-caption">Baca dan temukan ide <span>02 / 03</span></span>
+        </button>
+        <button class="gallery-tile" type="button" data-image="https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?auto=format&fit=crop&w=1600&q=88" data-caption="Diskusi kelompok dan belajar kolaboratif">
+          <img src="https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?auto=format&fit=crop&w=900&q=82" alt="Diskusi kelompok di ruang belajar" loading="lazy">
+          <span class="tile-caption">Tumbuh lewat diskusi <span>03 / 03</span></span>
+        </button>
+      </div>
+    </section>
+
+    <section class="plan-section section-wrap" id="rencana">
+      <div class="plan-copy">
+        <div class="section-label"><span>03</span> MULAI DENGAN LANGKAH KECIL</div>
+        <h2>Ritme belajar<br><em>minggu ini.</em></h2>
+        <p>Rencana ringan untuk membangun kebiasaan belajar yang bertahan.</p>
+        <button class="button button-dark" id="download-itinerary" type="button">
+          <svg aria-hidden="true" viewBox="0 0 24 24" fill="none"><path d="M12 3v12m0 0 4-4m-4 4-4-4M5 17v3h14v-3" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          Unduh panduan <span class="file-type">TXT · 1 KB</span>
+        </button>
+        <p class="download-status" id="download-status" aria-live="polite"></p>
+      </div>
+      <ol class="itinerary">
+        <li><time>SENIN</time><div><strong>Tentukan tujuan minggu ini</strong><span>Pilih satu hal yang ingin kamu kuasai</span></div></li>
+        <li><time>SELASA</time><div><strong>Belajar dalam sesi singkat</strong><span>Coba fokus 25 menit tanpa distraksi</span></div></li>
+        <li><time>KAMIS</time><div><strong>Praktikkan satu konsep</strong><span>Buat catatan atau proyek kecil</span></div></li>
+        <li><time>SABTU</time><div><strong>Refleksi dan berbagi</strong><span>Tinjau kemajuan, lalu rayakan prosesnya</span></div></li>
+      </ol>
+    </section>
+
+    <section class="map-section" id="lokasi">
+      <div class="map-heading section-wrap">
+        <div><div class="section-label"><span>04</span> BELAJAR BERSAMA DI JAKARTA</div><h2>Temukan ruang bacamu.</h2></div>
+        <a class="text-link" href="https://www.google.com/maps/search/?api=1&query=Perpustakaan+Nasional+Republik+Indonesia" target="_blank" rel="noreferrer">Buka di Google Maps <span aria-hidden="true">↗</span></a>
+      </div>
+      <div class="map-frame">
+        <iframe title="Peta Google Maps Perpustakaan Nasional Republik Indonesia" src="https://www.google.com/maps?q=Perpustakaan%20Nasional%20Republik%20Indonesia&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="wordmark" href="#beranda">RUANG<span> BELAJAR</span></a>
+    <p>Belajar bersama, tumbuh bersama</p>
+    <a href="#beranda">Kembali ke atas ↑</a>
+  </footer>
+
+  <dialog class="image-dialog" aria-label="Pratinjau foto">
+    <button class="dialog-close" type="button" aria-label="Tutup pratinjau">×</button>
+    <img src="" alt="">
+    <p></p>
+  </dialog>
+</body>
+</html>
